@@ -3,7 +3,11 @@ veriler = [10, 20, 30, 40, 50]
 ortalama = sum(veriler) / len(veriler)
 print(f"Verilerin Ortalaması: {ortalama}")
 
-def cikarma(a, b):
-    return a - b
+toplam = sum(veriler)
+print(f"Verilerin Toplamı: {toplam}")
 
-print(f"Çıkarma Sonucu: {cikarma(sayi1, sayi2)}")
+if len(veriler) == 0:
+    print("Liste boş!")
+else:
+    ortalama = sum(veriler) / len(veriler)
+    print(f"Verilerin Ortalaması: {ortalama}")
